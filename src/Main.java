@@ -43,7 +43,7 @@ public class Main {
 
             /*Т3РЕ3ТИЙ ТАС3К*/
 
-            System.out.printf("Среднее значение трат за месяц состовляет %s рублей.", (mach % (day.length)));
+            System.out.printf("Среднее значение трат за месяц состовляет %s рублей.", (mach / (day.length)));
             System.out.println();
             System.out.println();
 
