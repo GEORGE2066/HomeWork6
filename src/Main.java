@@ -7,7 +7,7 @@ public class Main {
             /*random & ПЕРВЫЙ ТАСК*/
 
             Random random = new Random();
-            int mach = 0;
+            float mach = 0f;
             int[] day = new int[30];
 
             for (int i = 0; i <= (day.length - 1); i++) {
@@ -43,7 +43,9 @@ public class Main {
 
             /*Т3РЕ3ТИЙ ТАС3К*/
 
-            System.out.printf("Среднее значение трат за месяц состовляет %.0f рублей.", (mach / (day.length)));
+            float middle = (mach / (day.length));
+
+            System.out.printf("Среднее значение трат за месяц состовляет %s рублей.", middle);
             System.out.println();
             System.out.println();
 
